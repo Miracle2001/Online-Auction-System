@@ -25,7 +25,7 @@
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login page.html">Login/Register</a>
+                        <a class="nav-link" href="#buyerModal" data-bs-toggle="modal" data-bs-target="#buyerModal">Login/Register</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="faq.html">FAQ</a>
@@ -37,9 +37,111 @@
                         <a class="nav-link" href="#">Admin Login</a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
+
+    <div class=" modal fade" id="sellerModal" tabindex="-1" aria-labelledby="sellerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4><a href="#buyerModal">Buyer</a> </h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4><a href="#sellerModal">Seller</a></h4>
+                        </div>
+                    </div>
+                    <h5>Seller Login</h5>
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputemail" class="form-label"></label>
+                            <input type="email" class="form-control" id="inputemail" placeholder="Student Email Address">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputpassword" class="form-label"></label>
+                            <input type="password" class="form-control" id="inputpassword" placeholder="Password">
+                        </div>
+
+
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-secondary">Login</button>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-primary">Register as a Seller</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Modal -->
+    <div class=" modal fade" id="buyerModal" tabindex="-1" aria-labelledby="buyerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4><a href="#buyerModal">Buyer</a> </h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4><a href="#sellerModal">Seller</a></h4>
+                        </div>
+                    </div>
+                    <h5>Buyer Login</h5>
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputemail" class="form-label"></label>
+                            <input type="email" class="form-control" id="inputemail" placeholder="Student Email Address">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputpassword" class="form-label"></label>
+                            <input type="password" class="form-control" id="inputpassword" placeholder="Password">
+                        </div>
+
+
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-secondary">Login</button>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-primary">Register as a buyer</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
